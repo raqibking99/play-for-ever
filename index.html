@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play For Ever 🎮</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #090b14;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 35px 15px;
+      background: linear-gradient(135deg, #171044, #082b42);
+      border-bottom: 2px solid #35e6ff;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 42px;
+      color: #35e6ff;
+      text-shadow: 0 0 15px #167fff;
+    }
+
+    header p {
+      color: #ddd;
+    }
+
+    .notice {
+      color: #aebbd0;
+      font-size: 13px;
+      margin-top: 15px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #151a2b;
+      border: 1px solid #303b59;
+      border-radius: 15px;
+      padding: 22px;
+      text-align: center;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #35e6ff;
+    }
+
+    .emoji {
+      font-size: 45px;
+    }
+
+    h2 {
+      color: #35e6ff;
+    }
+
+    .play {
+      display: inline-block;
+      padding: 11px 18px;
+      margin-top: 10px;
+      background: #35e6ff;
+      color: #080b14;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    .play:hover {
+      background: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #9aa6bd;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🎮 PLAY FOR EVER</h1>
+    <p>Your gaming zone. Pick a game and play!</p>
+    <div class="notice">
+      Free game links • No downloads needed for many browser games
+    </div>
+  </header>
+
+  <main>
+    <h2>🔥 Choose Your Game</h2>
+
+    <div class="games">
+
+      <div class="card">
+        <div class="emoji">⛏️</div>
+        <h2>Minecraft Style</h2>
+        <p>Explore block-building games in your browser.</p>
+        <a class="play" href="https://eaglercraft.com/"
+           target="_blank" rel="noopener noreferrer">Play Now</a>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🏃</div>
+        <h2>Roblox</h2>
+        <p>Explore Roblox and discover different games.</p>
+        <a class="play" href="https://www.roblox.com/"
+           target="_blank" rel="noopener noreferrer">Open Roblox</a>
+        <p class="notice">May require an account or app.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🏎️</div>
+        <h2>Racing</h2>
+        <p>Find racing games you can play online.</p>
+        <a class="play" href="https://www.crazygames.com/t/racing"
+           target="_blank" rel="noopener noreferrer">Race Now</a>
+      </div>
+
+      <div class="card">
+        <div class="emoji">👻</div>
+        <h2>Horror</h2>
+        <p>Discover spooky browser games.</p>
+        <a class="play" href="https://www.crazygames.com/t/horror"
+           target="_blank" rel="noopener noreferrer">Play Horror</a>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🌐</div>
+        <h2>Multiplayer</h2>
+        <p>Find free HTML5 games from indie creators.</p>
+        <a class="play" href="https://itch.io/games/html5"
+           target="_blank" rel="noopener noreferrer">Play Online</a>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🎮</div>
+        <h2>More Browser Games</h2>
+        <p>Choose from lots of free online games.</p>
+        <a class="play" href="https://poki.com/"
+           target="_blank" rel="noopener noreferrer">Explore Games</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>🎮 PLAY FOR EVER</p>
+    <p>Made for gamers. Play responsibly.</p>
+  </footer>
+</body>
+</html>
